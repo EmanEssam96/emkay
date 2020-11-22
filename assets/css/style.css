@@ -7,8 +7,6 @@
 @font-face {
   font-family: aleo;
   src: url(../../assets/fonts/Aleo-Bold.ttf), url(../../assets/fonts/Aleo-Regular.ttf);
-
-
 }
 
 body {
@@ -396,7 +394,7 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 60%;
 }
 .main-descrption{
-  font-size:22px;
+  font-size:18px;
 }
 .main-descrption2{
   font-size:13px;
@@ -508,7 +506,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (min-width: 1024px) {
   #hero .carousel-content {
-    width: 90%;
+    width: 100%;
   }
   #hero .carousel-control-prev, #hero .carousel-control-next {
     width: 5%;
