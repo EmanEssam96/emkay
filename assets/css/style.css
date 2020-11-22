@@ -1,5 +1,18 @@
+@font-face {
+  font-family: Montserrat;
+  src: url(../../assets/fonts/Montserrat-Bold.ttf), url(../../assets/fonts/Montserrat-Medium.ttf),
+    url(../../assets/fonts/Montserrat-Regular.ttf), url(../../assets/fonts/Montserrat-SemiBold.ttf);
+
+}
+@font-face {
+  font-family: aleo;
+  src: url(../../assets/fonts/Aleo-Bold.ttf), url(../../assets/fonts/Aleo-Regular.ttf);
+
+
+}
+
 body {
-  font-family: "Open Sans", sans-serif;
+  font-family: Montserrat !important;
   color: #4d4643;
 }
 
@@ -7,6 +20,9 @@ body {
   color: #598c3e;
 }
 
+.text-sucess{
+  font-family: aleo !important;
+}
 a:hover {
   color: #598c3e;
   text-decoration: none;
