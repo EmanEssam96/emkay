@@ -4,23 +4,60 @@
     url(../../assets/fonts/Montserrat-Regular.ttf), url(../../assets/fonts/Montserrat-SemiBold.ttf);
 
 }
+
+@font-face {
+  font-family: MontserratSemiBold;
+  src:url(../../assets/fonts/Montserrat-SemiBold.ttf);
+
+}
+
+@font-face {
+  font-family: MontserratRegular;
+  src:url(../../assets/fonts/Montserrat-Regular.ttf);
+
+}
+
+@font-face {
+  font-family: MontserratMedium;
+  src:url(../../assets/fonts/Montserrat-Medium.ttf);
+
+}
+
 @font-face {
   font-family: aleo;
   src: url(../../assets/fonts/Aleo-Bold.ttf), url(../../assets/fonts/Aleo-Regular.ttf);
 }
 
+@font-face {
+  font-family: aleoRegular;
+  src: url(../../assets/fonts/Aleo-Regular.ttf);
+}
+
 body {
-  font-family: Montserrat !important;
+  font-family: MontserratRegular !important;
   color: #4d4643;
 }
 
 .text-sucess, a {
   color: #598c3e;
+
 }
 
+div, p, .main-descrption{
+  font-family: MontserratRegular !important;
+}
 .text-sucess{
   font-family: aleo !important;
 }
+
+.read-more{
+  font-family: MontserratMedium !important;
+}
+
+.main-descrption2, .contact-head{
+  font-family: MontserratSemiBold !important;
+}
+
 a:hover {
   color: #598c3e;
   text-decoration: none;
@@ -765,6 +802,10 @@ section {
 /*--------------------------------------------------------------
 start contact
 --------------------------------------------------------------*/
+.contact-content{
+  font-family: MontserratMedium !important;
+
+}
 
 .contact{
   background-color: #f9f9f9;
@@ -786,6 +827,10 @@ ul{
 @media only screen and (max-width: 400px)  {
   #hero .carousel-content p {
     font-size: 12px ;
+}
+
+.contact-content{
+  font-size: 12px !important;
 }
 
 h1{
