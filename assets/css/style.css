@@ -73,9 +73,12 @@ body {
 
 
 
-.text-sucess, a {
+.text-sucess, a, .title-logo, .title-logo1 {
   color: #598c3e;
 
+}
+.title-logo {
+  margin-bottom:10px;
 }
 
 div, p, .main-descrption{
@@ -252,6 +255,7 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 400;
   text-transform: none;
   color: #111;
+  font-family: MontserratRegular !important;
 }
 
 .nav-menu .drop-down ul a:hover, .nav-menu .drop-down ul .active > a, .nav-menu .drop-down ul li:hover > a {
@@ -612,7 +616,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-height: 500px) {
   #hero {
-    height: 120vh;
+    /* height: 120vh; */
   }
 }
 
