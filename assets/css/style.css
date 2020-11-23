@@ -12,6 +12,12 @@
 }
 
 @font-face {
+  font-family: MontserratItalic;
+  src: url(../../assets/fonts/Montserrat-Italic.ttf);
+
+}
+
+@font-face {
   font-family: MontserratSemiBold;
   src:url(../../assets/fonts/Montserrat-SemiBold.ttf);
 
@@ -93,6 +99,10 @@ div, p, .main-descrption{
 
 .main-descrption2, .contact-head,.MsemiBold{
   font-family: MontserratSemiBold !important;
+}
+
+.MontserratItalic{
+  font-family: MontserratItalic !important;
 }
 
 a:hover {
