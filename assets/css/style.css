@@ -937,15 +937,16 @@ padding-right:0px !important;
   .toggleA{
     display:none !important
   }
-  .value-section{
-    height:300px !important;
-  }
+
 
 }
 
 @media only screen and (max-width: 991px){
   .toggleA{
     display:block !important
+  }
+  .value-section{
+    height:300px !important;
   }
 
 }
