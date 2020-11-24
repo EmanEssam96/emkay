@@ -713,8 +713,8 @@ section {
 .values{
   background: url("../../assets/img/About/about-value-img.png")  no-repeat ;
   background-repeat: no-repeat;
-  background-size: 100% 100%,contain !important;
-  background-position: center;
+  background-size:  100% 100%, cover !important;
+
 
 }
 
