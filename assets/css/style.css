@@ -932,3 +932,17 @@ padding-right:0px !important;
 
 
 }
+
+@media only screen and (min-width: 992px){
+  .toggleA{
+    display:none !important
+  }
+
+}
+
+@media only screen and (max-width: 991px){
+  .toggleA{
+    display:block !important
+  }
+
+}
