@@ -937,6 +937,9 @@ padding-right:0px !important;
   .toggleA{
     display:none !important
   }
+  .value-section{
+    height:300px !important;
+  }
 
 }
 
