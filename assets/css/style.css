@@ -884,6 +884,10 @@ ul{
   font-size: 12px !important;
 }
 
+.solgan{
+  font-size:8px !important;
+}
+
 h1, .approach-head,h5{
   font-size:14px !important;
 }
@@ -905,6 +909,24 @@ h1, .approach-head,h5{
 .col-xl-1, .col-xl-10, .col-xl-11, .col-xl-12, .col-xl-2, .col-xl-3, .col-xl-4, .col-xl-5, .col-xl-6, .col-xl-7,
 .col-xl-8, .col-xl-9, .col-xl-auto{
   font-size:8px !important;
+  /* padding-right:0px !important; */
+}
+
+.key-prand > div > row > col-2{
+padding-right:0px !important;
+}
+
+.Kp{
+
+  padding-right:0px !important;
+}
+
+.title-logo{
+  margin-left:10px;
+}
+
+.contact-section{
+  margin-left:20px;
 }
 
 
